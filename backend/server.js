@@ -33,6 +33,8 @@ app.use('/tracker-api/v1/transactions', transactionsRoute);
 // $Error Handlers
 app.use(globalErrorHandler)
 
+app.json("hello")
+
 // $Server Listener
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
