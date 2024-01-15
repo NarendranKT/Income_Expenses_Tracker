@@ -13,7 +13,7 @@ const Account = () => {
     }, []);
 
     // const background_img = 'bg-hero-pattern blur-md hue-rotate-15 bg-no-repeat bg-cover contrast-75 backdrop-brightness-0 brightness-50';
-    console.log(allAccounts);
+    console.log(allAccounts.length == 0);
     return (    
     <>
         <div className="w-full px-6 py-6">
