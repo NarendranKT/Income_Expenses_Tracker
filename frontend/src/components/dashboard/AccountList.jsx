@@ -12,7 +12,7 @@ const AccountList = ({accounts}) => {
             {
             accounts?.length <= 0 ?
                 <>
-                <div className="mt-10 text-center">
+                <div className="mt-10 text-center mb-10">
                     <h2 className="capitalize font-bold text-2xl tracking-wide leading-loose">no accounts found</h2>
                     <p className=" font-medium tracking-wide leading-tight text-lg mb-6">You have not created any accounts yet. Click the button below to create one.</p>
                     <Link to='/dashboard/accounts/create' className=" ripple-bg-indigo-500 text-white rounded-md px-4 py-2 capitalize font-medium">
