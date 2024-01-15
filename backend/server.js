@@ -15,7 +15,7 @@ dbConnect();
 app.use(express.json()) //! To pass incoming data
 // app.use(cors()); //! Cross origin middleware
 app.use(cors({
-    origin: ["link to website"],
+    origin: ["https://income-expenses-tracker-frontend.vercel.app/"],
     methods: ["POST", "GET"],
     credentials: true
 }))
