@@ -16,7 +16,6 @@ app.use(express.json()) //! To pass incoming data
 app.use(cors()); //! Cross origin middleware
 
 // $Routers --> "/tracker-api/v1/.."
-
 // >users route
 app.use('/tracker-api/v1/users/', usersRoute);
 
