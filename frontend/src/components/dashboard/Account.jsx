@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { accountContext } from "../context/accountContext/AccountContext";
-import { all } from "axios";
+import {plusRound} from 'react-icons-kit/ionicons/plusRound'
+import Icon from "react-icons-kit";
 import { Link } from "react-router-dom";
 
 const Account = () => {
