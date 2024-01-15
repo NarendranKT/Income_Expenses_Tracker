@@ -4,7 +4,6 @@
   "description": "Api for keeping track of your income and expenses",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
     "start": "node server.js"
   },
