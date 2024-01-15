@@ -19,8 +19,8 @@ const Account = () => {
     <>
             {allAccounts?.length <= 0 ?
                 <>
-                    <div className="text-center mt-20">
-                        <h1 className="capitalize text-base lg:text-2xl">No accounts found!, create one</h1>
+                    <div className="text-center mt-28">
+                        <h1 className="capitalize text-base lg:text-2xl py-6">No accounts found!, create one</h1>
                         <Link className="text-center bg-indigo-500 py-2 rounded-md  font-mediums hover:ripple-bg-indigo-300 lg:px-3 px-1 pr-2 text-white lg:text-base text-base font-medium capitalize whitespace-nowrap" to={`'/dashboard/accounts/create'`}>
                             <Icon icon={plusRound} size={25} className="pr-1 pb-0"></Icon>
                             account
