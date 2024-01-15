@@ -13,7 +13,12 @@ dbConnect();
 
 // $Middleswares
 app.use(express.json()) //! To pass incoming data
-app.use(cors()); //! Cross origin middleware
+// app.use(cors()); //! Cross origin middleware
+app.use(cors({
+    origin: ["link to website"],
+    methods: ["POST", "GET"],
+    credentials: true
+}))
 
 // $Routers --> "/tracker-api/v1/.."
 // >users route
