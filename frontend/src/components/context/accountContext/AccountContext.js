@@ -141,6 +141,7 @@ const AccountContextProvider = ({ children }) => {
                     type: ACCOUNT_FETCH_SUCCESS,
                     payload: res?.data?.data
                 })
+                console.log(res?.data);
             }
         } catch (error) {
             dispatch({
