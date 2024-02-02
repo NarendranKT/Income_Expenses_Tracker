@@ -55,7 +55,7 @@ const Navbar = () => {
                     </>}
                 </ul>
 
-                {token && <button className="hover:bg-indigo-500 p-1 px-2 rounded-md transition-colors hover:text-white font-medium hover:ripple-bg-indigo-300 lg:flex hidden" onClick={handleLogoutButton}>Logout</button>}
+                {token && <button className="hover:bg-indigo-500 p-1 px-2 rounded-md transition-colors hover:text-white font-medium hover:ripple-bg-indigo-300 lg:flex " onClick={handleLogoutButton}>Logout</button>}
             </div>
 
             <div className=" flex items-center">
