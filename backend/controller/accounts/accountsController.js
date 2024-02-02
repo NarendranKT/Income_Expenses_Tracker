@@ -35,8 +35,9 @@ const createAccount = async (req, res, next) => {
 
 // $get all accounts function
 const getAllAccount = async (req, res, next) => {
+    const user = req.user;
     try {
-        const accounts = await Account.find().populate('transactions');
+        const accounts = await Account.find({createdBy:user?._id}).populate('transactions');
         res.json({
             status: "success",
             data : accounts
