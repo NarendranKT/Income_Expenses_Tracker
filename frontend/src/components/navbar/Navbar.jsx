@@ -88,6 +88,9 @@ const Navbar = () => {
                                     <li>
                                         <NavLink className={`p-1 px-2 transition-colors  ${hovertext}`} to='/dashboard'>Dashboard</NavLink>
                                     </li>
+                                    <li>
+                                        <button className="hover:bg-indigo-500 p-1 px-2 rounded-md transition-colors hover:text-white font-medium hover:ripple-bg-indigo-300 lg:flex hidden" onClick={handleLogoutButton}>Logout</button>
+                                    </li>
                                 </>}
                                 {!token && <>
                                     <li>
