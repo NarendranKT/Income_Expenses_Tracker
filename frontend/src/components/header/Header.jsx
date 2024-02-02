@@ -27,7 +27,7 @@ import { Link } from "react-router-dom";
                             <div className="w-full h-full rounded-md flex justify-center items-center opacity-0 hover:max-md:opacity-100 ">
                                 <div className="w-full h-full rounded-md hover:backdrop-blur-sm hover:bg-black/40 flex flex-col items-center justify-center text-white transition-all duration-300 ease-in-out p-3">
                                     <h1 className="mt-5 mb-6 text-[25px]  font-bold leading-tight tracking-tight text-center">Track Your Income and Expenses in One Place</h1>
-                                    <p className=" text-base md:text-xl text-white/90 font-medium text-center">
+                                    <p className=" text-xs md:text-xl text-white/90 font-light text-center">
                                         Wondering where all your money goes each month? Tired of complicated budgeting software? Try our Simple Income & Expenses Tracker Application, the simple way to track your income and expenses in one place.
                                     </p>
                                 </div>
